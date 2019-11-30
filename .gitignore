@@ -1,0 +1,76 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+### VS Code ###
+*.vscode
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.mvn
+
+### Environment properties
+src/main/resources/application.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-test.properties
+src/main/resources/application-prod.properties
+
+### React stuff
+src/main/react/build/
+src/main/react/node_modules/
+
+#Logs
+*.log
+
+.DS_Store
+src/main/react/.env.local
+src/main/react/.env.development.local
+src/main/react/.env.test.local
+src/main/react/.env.production.local
+
+src/main/react/npm-debug.log*
+src/main/react/yarn-debug.log*
+src/main/react/yarn-error.log*
+/.metadata/
+
+
+### NodeJs
+node_modules/
